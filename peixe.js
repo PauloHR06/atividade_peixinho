@@ -16,12 +16,12 @@ var peixinho;
 function preload () {
     this.load.image('mar', 'assets/bg_azul-claro.png');
     this.load.image('logo', 'assets/logo-inteli_branco.png');
-    this.load.image('peixe', 'assets/peixes/tubarao.png');
+    this.load.image('peixe', 'assets/peixes/peixonauta.png');
 }
 function create () {
     this.add.image(400, 300, 'mar');
-    this.add.image(400, 525, 'logo');
-    peixinho = this.add.image(400, 300, 'peixe');
+    this.add.image(400, 525, 'logo').setScale(0.5);
+    peixinho = this.add.image(400, 300, 'peixe').setScale(0.5);
     peixinho.setFlip(true, false);
 }
 function update () { 
