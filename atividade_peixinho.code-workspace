@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "atividade_peixinho",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "../assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "atividade_peixinho",
+		"liveServer.settings.port": 5501
+	}
+}
